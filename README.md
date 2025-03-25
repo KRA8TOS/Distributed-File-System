@@ -40,29 +40,6 @@ The project consists of four main Python scripts:
 - **Functionality**: Executes a sequence of operations (login, open, write, read, stat) to verify the system works.
 - **Key Components**: Simple script calling `ClientNode` methods.
 
-## How to Run
-1. Start the **Master Node**:
-   ```sh
-   python master_node.py
-   ```
-2. Start one or more **Storage Nodes**:
-   ```sh
-   python storage_node.py
-   ```
-3. Run the **Client Node** to interact with the system:
-   ```sh
-   python client_node.py
-   ```
-4. (Optional) Run the test script:
-   ```sh
-   python client_test.py
-   ```
-
-## Dependencies
-Ensure you have the following Python libraries installed:
-```sh
-pip install cryptography
-```
 
 ## Future Enhancements
 - **Persistent Storage**: Implement file persistence beyond runtime.
